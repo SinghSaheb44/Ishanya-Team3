@@ -109,9 +109,10 @@ The frontend will be available at **http://localhost:3000**
 - **Dev Meerchandani**
 - **Swati Chavan**
 
-##**Mentors**##
--**Harman Gupta**
--**Chetan Jain**
+## **Mentors**
+- **Harman Gupta**  
+- **Chetan Jain**
+
 
 ## **License**
 This project is licensed under the **MIT License**.
