@@ -1,170 +1,121 @@
-Ishanya Foundation Management System
+**# Ishanya Foundation Management System**
 
-Overview
+## **Overview**
 
-The Ishanya Foundation Management System is a web-based platform designed to streamline the management of students, educators, and sessions for the NGO. It provides an admin portal for managing data and a homepage where visitors can view basic details of students and educators.
+The **Ishanya Foundation Management System** is a web-based platform designed to streamline the management of students, educators, and sessions for the NGO. It provides an **admin portal** for managing data and a **homepage** where visitors can view basic details of students and educators.
 
-Features
+## **Features**
 
-Admin Login & Portal: Secure login system for administrators to manage data.
+### **Admin Login & Portal**
+- Secure login system for administrators to manage data.
 
-Student & Educator Management:
+### **Student & Educator Management**
+- View basic details on the homepage.
+- Add, edit, and view student and educator information.
 
-View basic details on the homepage.
+### **Session Management**
+- Admin can schedule, modify, and manage sessions.
 
-Add, edit, and view student and educator information.
+### **Database**
+- All data is stored securely using **MongoDB Atlas**.
 
-Session Management:
+## **Tech Stack**
 
-Admin can schedule, modify, and manage sessions.
+### **Frontend**
+- **React.js**: Used for building the user interface.
+- **Tailwind CSS / Material UI (optional)**: For styling and better UI components.
 
-Database: All data is stored securely using MongoDB Atlas.
+### **Backend**
+- **FastAPI**: Handles API requests, authentication, and data processing.
+- **MongoDB Atlas**: NoSQL database for storing NGO data.
 
-Tech Stack
+## **Installation & Setup**
 
-Frontend
-
-React.js: Used for building the user interface.
-
-Tailwind CSS / Material UI (optional): For styling and better UI components.
-
-Backend
-
-FastAPI: Handles API requests, authentication, and data processing.
-
-MongoDB Atlas: NoSQL database for storing NGO data.
-
-Installation & Setup
-
-Prerequisites
-
+### **Prerequisites**
 Ensure you have the following installed:
+- **Node.js (v16 or later)**
+- **Python (3.8 or later)**
+- **MongoDB Atlas account and connection string**
 
-Node.js (v16 or later)
-
-Python (3.8 or later)
-
-MongoDB Atlas account and connection string
-
-Backend Setup (FastAPI)
+### **Backend Setup (FastAPI)**
 
 Clone the repository:
-
-git clone https://github.com/your-repo/ishanya-ngoms.git
-cd ishanya-ngoms/backend
+```sh
+git clone https://github.com/SinghSaheb44/Ishanya-Team3.git
+cd Ishanya-Team3/backend
+```
 
 Create a virtual environment and activate it:
-
+```sh
 python -m venv venv
 source venv/bin/activate   # On Windows: venv\Scripts\activate
+```
 
 Install dependencies:
-
+```sh
 pip install -r requirements.txt
+```
 
 Set up environment variables:
-Create a .env file in the backend directory and add:
-
-MONGODB_URI=<your-mongodb-connection-string>
+Create a **.env** file in the backend directory and add:
+```sh
+MONGODB_URI=mongodb+srv://sahebdeepsingh44:RsA1NWrXJSaQLjZE@cluster0.rwfm2.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0
 SECRET_KEY=<your-secret-key>
+```
 
 Run the FastAPI server:
-
+```sh
 uvicorn main:app --reload
+```
 
-The API will be available at http://127.0.0.1:8000
+The API will be available at **http://127.0.0.1:8000**
 
-Frontend Setup (React.js)
+### **Frontend Setup (React.js)**
 
 Navigate to the frontend directory:
-
+```sh
 cd ../frontend
+```
 
 Install dependencies:
-
+```sh
 npm install
+```
 
 Configure environment variables:
-Create a .env file in frontend with:
-
+Create a **.env** file in frontend with:
+```sh
 REACT_APP_API_URL=http://127.0.0.1:8000
+```
 
 Run the React development server:
-
+```sh
 npm start
+```
 
-The frontend will be available at http://localhost:3000
+The frontend will be available at **http://localhost:3000**
 
-API Endpoints
 
-Method
 
-Endpoint
+## **Future Enhancements**
+- Implement **role-based access** for different users.
+- Improve **UI/UX** for a better user experience.
+- Add **analytics dashboard** for NGO performance insights.
 
-Description
+## **Contributors**
+- **Sahebdeep Singh Kukreja** - 
+- **Anders Arnold** 
+- **Dheeraj Siripurapu**
+- **Dev Meerchandani**
+- **Swati Chavan**
 
-POST
+##**Mentors**##
+-**Harman Gupta**
+-**Chetan Jain**
 
-/admin/login
+## **License**
+This project is licensed under the **MIT License**.
 
-Admin login
+## **Contact**
+For queries, reach out at **sahebdeepsingh44@gmail.com**.
 
-GET
-
-/students
-
-Get all students
-
-POST
-
-/students
-
-Add a new student
-
-GET
-
-/educators
-
-Get all educators
-
-POST
-
-/educators
-
-Add a new educator
-
-GET
-
-/sessions
-
-Get all sessions
-
-POST
-
-/sessions
-
-Add a new session
-
-Future Enhancements
-
-Implement role-based access for different users.
-
-Improve UI/UX for better user experience.
-
-Add analytics dashboard for NGO performance insights.
-
-Contributors
-
-[Your Name] - Backend Development
-
-[Your Name] - Frontend Development
-
-[Your Name] - UI/UX Design
-
-License
-
-This project is licensed under the MIT License.
-
-Contact
-
-For queries, reach out at [your-email@example.com].
