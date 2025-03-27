@@ -54,7 +54,7 @@ const StudentFAQSection = ({ bg2, faq2 }) => {
           <div className="space-y-4">
             <input
               type="text"
-              placeholder="Enter your Student ID"
+              placeholder="Enter your Educator ID"
               value={educatorId}
               onChange={(e) => setEducatorId(e.target.value)}
               className="w-full px-4 py-2 border border-white rounded-md bg-white text-gray-900 focus:outline-none focus:ring-2 focus:ring-orange-500"
