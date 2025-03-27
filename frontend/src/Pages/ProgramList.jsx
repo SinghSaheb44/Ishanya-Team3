@@ -19,32 +19,7 @@ const SessionList = () => {
     educator: '',
   });
 
-  const sampleSessions = [
-    {
-      session_id: "SES001",
-      days: ["Monday", "Wednesday", "Friday"],
-      time: "10:00",
-      duration: 90,
-      program: "CS101",
-      educator_id: "EDU1"
-    },
-    {
-      session_id: "SES002",
-      days: ["Tuesday", "Thursday"],
-      time: "14:00",
-      duration: 120,
-      program: "DS201",
-      educator_id: "EDU3"
-    },
-    {
-      session_id: "SES003",
-      days: ["Saturday"],
-      time: "11:00",
-      duration: 60,
-      program: "WD301",
-      educator_id: "EDU4"
-    }
-  ];
+ 
 
   useEffect(() => {
     const fetchSessions = async () => {
