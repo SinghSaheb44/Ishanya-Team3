@@ -128,7 +128,7 @@ export default function LandingPage() {
           </div>
 
           {/* Right section with About, Contact, and Employee button */}
-          <div className="flex space-x-8 text-white font-semibold py-8 ml-auto mt-5">
+          <div className="flex space-x-8 text-white font-semibold py-8 ml-auto">
             <a href="#" className="hover:text-yellow-400">
               HOME
             </a>
@@ -154,10 +154,15 @@ export default function LandingPage() {
             </a>
             <a
               href="/login"
-              className="px-4 py-2 text-sm bg-red-700 text-white rounded-md hover:bg-gray-800 transition duration-300 flex items-center"
-              style={{ height: "auto" }} // Adjust the button height
+              className="px-4 py-1 text-sm bg-red-700 text-white rounded-md hover:bg-gray-800 transition duration-300 flex items-center"
             >
               <b>For Employees</b>
+            </a>
+            <a
+              href="/register"
+              className="px-4 py-1 text-sm bg-red-700 text-white rounded-md hover:bg-gray-800 transition duration-300 flex items-center"
+            >
+              <b>Register</b>
             </a>
           </div>
         </div>
@@ -458,7 +463,7 @@ export default function LandingPage() {
               </h3>
               <p className="text-white text-sm mt-2">
                 1-2-1 Remedial program. Guided sessions with individual goals &
-                IEP’s. We use an eclectic approach and curriculum tailored to
+                IEP's. We use an eclectic approach and curriculum tailored to
                 the specific needs and abilities of each individual
               </p>
             </div>
