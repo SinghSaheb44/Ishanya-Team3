@@ -7,19 +7,19 @@ const CalendarScheduleViewer = () => {
   // Sample schedule data - in a real app, this would come from an API or database
   const scheduleData = {
     '2025-03-24': [
-      { id: 1, time: '09:00 AM', title: 'Team Meeting', location: 'Conference Room A' },
-      { id: 2, time: '11:30 AM', title: 'Client Call', location: 'Phone' },
-      { id: 3, time: '01:00 PM', title: 'Lunch with Bob', location: 'Cafe Bistro' },
-      { id: 4, time: '03:00 PM', title: 'Project Review', location: 'Office' }
+      { id: 1, time: '09:00 AM', title: 'SIDHI', location: 'Conference Room A' },
+      { id: 2, time: '11:30 AM', title: 'SAMETI', location: 'Conference Room B' },
+      { id: 3, time: '01:00 PM', title: 'SATTVA', location: 'Conference Room C' },
+      { id: 4, time: '03:00 PM', title: 'SHAAALE', location: 'Conference Room D' }
     ],
     '2025-03-25': [
-      { id: 1, time: '10:00 AM', title: 'Dentist Appointment', location: 'Dental Clinic' },
-      { id: 2, time: '02:00 PM', title: 'Budget Planning', location: 'Meeting Room B' }
+      { id: 1, time: '10:00 AM', title: 'SHAALE', location: 'Conference Room B' },
+      { id: 2, time: '02:00 PM', title: 'SUYOG', location: 'Conference Room C' }
     ],
     '2025-03-26': [
-      { id: 1, time: '08:30 AM', title: 'Breakfast Seminar', location: 'Hotel Convention Center' },
-      { id: 2, time: '01:30 PM', title: 'Department Meeting', location: 'Auditorium' },
-      { id: 3, time: '04:00 PM', title: 'Happy Hour', location: 'Downtown Bar' }
+      { id: 1, time: '08:30 AM', title: 'SHALE', location: 'Conference Room D' },
+      { id: 2, time: '01:30 PM', title: 'SPRUHA', location: 'Conference Room B' },
+      { id: 3, time: '04:00 PM', title: 'SIDHI', location: 'Conference Room C' }
     ]
   };
   
@@ -152,11 +152,7 @@ const CalendarScheduleViewer = () => {
           </div>
         )}
         
-        <div className="mt-4 pt-4 border-t border-gray-200">
-          <button className="bg-blue-500 hover:bg-blue-600 text-white px-4 py-2 rounded">
-            Add New Event
-          </button>
-        </div>
+       
       </div>
     </div>
   );
