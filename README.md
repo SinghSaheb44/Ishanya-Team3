@@ -1,4 +1,4 @@
-**# Ishanya Foundation Management System**
+# **Ishanya Foundation Management System**
 
 ## **Overview**
 
