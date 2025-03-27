@@ -737,7 +737,7 @@ const StudentListPage = () => {
             </h1>
             <button
               onClick={() => navigate("./add-student", { relative: "path" })}
-              className="px-4 py-2 bg-indigo-600 text-white rounded-md hover:bg-indigo-700 flex items-center"
+              className="px-4 py-1 bg-indigo-600 text-white rounded-md hover:bg-indigo-700 flex items-center"
             >
               <Plus className="h-4 w-4 mr-2" />
               Add New Student
@@ -1367,3 +1367,4 @@ const StudentListPage = () => {
 };
 
 export default StudentListPage;
+
