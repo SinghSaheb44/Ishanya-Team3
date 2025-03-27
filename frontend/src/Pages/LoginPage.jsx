@@ -158,12 +158,7 @@ const LoginPage = () => {
                 {isLoading ? "Signing in..." : "Sign In as Admin"}
               </button>
             </form>
-            <a
-              href="#"
-              className="block text-center text-sm text-indigo-600 mt-4 hover:text-indigo-800"
-            >
-              Forgot your password?
-            </a>
+           
           </div>
         </div>
 
@@ -215,12 +210,7 @@ const LoginPage = () => {
                 {isLoading ? "Signing in..." : "Sign In as Admin"}
               </button>
             </form>
-            <a
-              href="#"
-              className="block text-center text-sm text-indigo-600 mt-4 hover:text-indigo-800"
-            >
-              Forgot your password?
-            </a>
+           
           </div>
         </div>
 
