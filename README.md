@@ -59,7 +59,7 @@ pip install -r requirements.txt
 Set up environment variables:
 Create a **.env** file in the backend directory and add:
 ```sh
-MONGODB_URI=mongodb+srv://sahebdeepsingh44:RsA1NWrXJSaQLjZE@cluster0.rwfm2.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0
+MONGODB_URI=your_mongo_url
 SECRET_KEY=<your-secret-key>
 ```
 
